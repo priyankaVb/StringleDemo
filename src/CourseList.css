@@ -1,0 +1,102 @@
+.courselist-container {
+  width: 96%;
+  padding: 5px 0px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.courselist-header {
+  margin-left: 20px;
+  font-size: 14px;
+  color: #000000;
+  line-height: 25.5px;
+}
+
+.courselist-header-icon {
+  margin-right: 20px;
+  font-size: 14px;
+  color: #000000;
+}
+
+.courselist-arrow-icon {
+  margin-left: 10px;
+}
+
+.courselist-courses-main-container {
+  width: 94%;
+  margin-left: 22px;
+  margin-right: 20px;
+  padding: 5px 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.courselist-subjects-container {
+  display: flex;
+  width: 100%;
+  background: #4d4cac;
+  border-radius: 8px;
+  margin: 4px;
+}
+
+.courselist-sub-category-content {
+  flex: 10%;
+  height: 30px;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+  color: #fff;
+}
+
+.courselist-sub-content {
+  flex: 70%;
+  height: 30px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.courselist-subject-category {
+  background: #6767b8;
+  border-radius: 8px;
+  padding: 8px;
+  height: 18px;
+  width: 18px;
+  font-size: 12px;
+}
+
+.courselist-subject {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.courselist-subject-div {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-size: 10px;
+  line-height: 22px;
+  font-weight: 500;
+}
+
+.courselist-sub-div-content {
+  flex: 40%;
+  height: 30px;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+  padding-top: 22px;
+}
+
+.courselist-course-arrow-icon {
+  margin-left: 10px;
+  color: #fff;
+}

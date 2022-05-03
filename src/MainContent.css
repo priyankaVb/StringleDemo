@@ -1,0 +1,125 @@
+.maincontent-container {
+  margin-left: 15%;
+  margin-right: 20%;
+  display: block;
+  height: 100vh;
+  background: #f5f5fb;
+}
+
+.maincontent-date-content {
+  display: flex;
+  width: 100%;
+}
+
+.maincontent-date {
+  flex: 80%;
+  height: 30px;
+  padding: 10px;
+  margin: 5px;
+  text-align: right;
+}
+
+.maincontent-date-time {
+  color: #111026;
+  font-size: 14px;
+  line-height: 6px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  margin-top: 10px;
+}
+
+.maincontent-search-content {
+  flex: 20%;
+  height: 30px;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+}
+
+.maincontent-search {
+  margin-right: 20px;
+  margin-top: 10px;
+  background: #e5e9fa;
+  border-radius: 8px;
+  padding: 8px;
+  height: 18px;
+  width: 18px;
+  font-size: 16px;
+}
+.maincontent-message-main-container {
+  margin: 30px;
+  border-radius: 8px;
+  background: #f7e5e9;
+}
+.maincontent-message-container {
+  display: flex;
+  width: 100%;
+  padding: 35px;
+}
+
+.maincontent-message {
+  flex: 50%;
+  height: 60px;
+  padding: 10px;
+  margin: 5px;
+  text-align: left;
+}
+
+.maincontent-image {
+  flex: 50%;
+  height: 60px;
+  padding: 10px;
+  margin: 5px;
+  text-align: left;
+}
+
+.maincontent-message-title {
+  font-family: "Poppins", sans-serif;
+  color: #ff808b;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 38px;
+}
+
+.maincontent-message-body {
+  font-family: "Poppins", sans-serif;
+  color: #000000;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.maincontent-image-src {
+  height: 210px;
+  width: 180px;
+  margin-left: 20px;
+  margin-top: -25%;
+}
+
+.maincontent-results-main-container {
+  margin: 30px;
+}
+
+.maincontent-results-container {
+  display: flex;
+  width: 100%;
+}
+
+.maincontent-results-chart-container {
+  flex: 40%;
+  height: 260px;
+  padding: 10px;
+  margin: 5px;
+  text-align: left;
+  background: white;
+  border-radius: 8px;
+}
+
+.maincontent-time-chart-container {
+  flex: 60%;
+  height: 260px;
+  padding: 10px;
+  margin: 5px;
+  text-align: left;
+  background: white;
+  border-radius: 8px;
+}

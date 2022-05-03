@@ -1,0 +1,30 @@
+.timechart-container {
+  width: 100%;
+  padding: 5px 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.timechart-header {
+  margin-left: 20px;
+  font-size: 14px;
+  color: #000000;
+  line-height: 25.5px;
+}
+
+.timechart-header-icon {
+  margin-right: 20px;
+  font-size: 14px;
+  color: #000000;
+}
+
+.timechart-arrow-icon {
+  margin-left: 10px;
+}
+
+.timechart-chart-view {
+  margin-top: 20px;
+  height: 210px;
+}
